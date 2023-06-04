@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Darumadrop One', cursive;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typewriter-text {  
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 5s steps(40);
+}
+
